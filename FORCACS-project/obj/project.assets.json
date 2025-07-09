@@ -8,24 +8,26 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\henri\\.nuget\\packages\\": {}
+    "C:\\Users\\MariaEduarda_Contu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\ForcaCS\\FORCACS-project\\FORCACS-project.csproj",
+      "projectUniqueName": "C:\\Users\\MariaEduarda_Contu\\OneDrive - Dell Technologies\\Documents\\C#\\ForcaCS\\FORCACS-project\\FORCACS-project.csproj",
       "projectName": "FORCACS-project",
-      "projectPath": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\ForcaCS\\FORCACS-project\\FORCACS-project.csproj",
-      "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\ForcaCS\\FORCACS-project\\obj\\",
+      "projectPath": "C:\\Users\\MariaEduarda_Contu\\OneDrive - Dell Technologies\\Documents\\C#\\ForcaCS\\FORCACS-project\\FORCACS-project.csproj",
+      "packagesPath": "C:\\Users\\MariaEduarda_Contu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MariaEduarda_Contu\\OneDrive - Dell Technologies\\Documents\\C#\\ForcaCS\\FORCACS-project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\MariaEduarda_Contu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\MariaEduarda_Contu\\.dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

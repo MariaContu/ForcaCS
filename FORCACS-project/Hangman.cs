@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Security.Claims;
 using System.Threading;
 namespace HangmanGame
 {
@@ -8,11 +9,10 @@ namespace HangmanGame
         static void Main(string[] args)
         {
             Console.Clear();
-            int life = 6;
             menuForca();
+
             bool isIniciado = Console.ReadLine().ToLower().Equals("y");
-            Console.WriteLine(isIniciado);
-            if (isIniciado) Console.WriteLine(stickFigure(life));
+            if (isIniciado) jogar();
             else Console.WriteLine("COMO OUSAS NAO JOGAR!!!!");
             
             //menu
@@ -21,7 +21,7 @@ namespace HangmanGame
             //jogo
             // metodos: - corpinho em relacao a vida
             //          - verificar letra
-            //          - alfabeto (letras com cores responsivas = verde = acertou, cinza = n tem, branco = faltando)
+            //          - alfabeto (letras com cores responsivas = verde = acertou, cinza = n tem, branco = faltando
         }
 
         static void menuForca()
@@ -35,9 +35,27 @@ namespace HangmanGame
 ╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝  ");
 
             //opcoes
-            Console.WriteLine("=====================================\n\n");
+            Console.WriteLine("\n\n=====================================\n\n");
             Console.WriteLine("          Vamos comecar? (y/n)");
             Console.WriteLine("\n\n=====================================");
+        }
+
+        static void jogar()
+        {
+            Console.Clear();
+            
+            Console.Write($"\n\n Escolhendo uma palavra");
+            Thread.Sleep(400);
+            Console.Write(".");
+            Thread.Sleep(400);
+            Console.Write(".");
+            Thread.Sleep(400);
+            Console.Write(".");
+            Thread.Sleep(400);
+
+            string palavraEscolhida = Forca.sorteiaPalavra();
+            
+            Console.WriteLine(palavraEscolhida);
         }
         
         static string stickFigure(int life)
