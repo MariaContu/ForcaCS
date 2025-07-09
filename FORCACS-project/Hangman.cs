@@ -7,17 +7,38 @@ namespace HangmanGame
     {
         static void Main(string[] args)
         {
-            int maxLife = 5;
-            int life = maxLife;
-            for (int i = 0; i <= maxLife; i++)
+            while (true)
             {
                 Console.Clear();
-                Console.WriteLine(stickFigure(life));
-                Thread.Sleep(1000);
-                life--;
+                menuForca();
+                //menu
+                //opcoes (regras + jogar + sair)
+
+                //jogo
+                // metodos: - corpinho em relacao a vida
+                //          - verificar letra
+                //          - alfabeto (letras com cores responsivas = verde = acertou, cinza = n tem, branco = faltando)
             }
         }
 
+        static void menuForca()
+        {
+            Console.WriteLine(@"███████╗ ██████╗ ██████╗  ██████╗ █████╗  
+██╔════╝██╔═══██╗██╔══██╗██╔════╝██╔══██╗  
+█████╗  ██║   ██║██████╔╝██║     ███████║  
+██╔══╝  ██║   ██║██╔══██╗██║     ██╔══██║  
+██║     ╚██████╔╝██║  ██║╚██████╗██║  ██║  
+╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝  ");
+            
+            //opcoes
+            bool isIniciado = false;
+
+            Console.WriteLine("=====================================\n\n");
+            Console.WriteLine("          Vamos comecar? (y/n)");
+            Console.WriteLine("\n\n=====================================");
+            isIniciado = Console.ReadLine().ToLower().Equals("y") ? true : false;
+        }
+        
         static string stickFigure(int life)
         {
             return @$"      _______
