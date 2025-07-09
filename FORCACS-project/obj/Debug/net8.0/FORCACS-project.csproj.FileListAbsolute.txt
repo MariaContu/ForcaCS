@@ -13,3 +13,18 @@ C:\Users\MariaEduarda_Contu\OneDrive - Dell Technologies\Documents\C#\Forca\FORC
 C:\Users\MariaEduarda_Contu\OneDrive - Dell Technologies\Documents\C#\Forca\FORCACS-project\obj\Debug\net8.0\FORCACS-project.pdb
 C:\Users\MariaEduarda_Contu\OneDrive - Dell Technologies\Documents\C#\Forca\FORCACS-project\obj\Debug\net8.0\FORCACS-project.genruntimeconfig.cache
 C:\Users\MariaEduarda_Contu\OneDrive - Dell Technologies\Documents\C#\Forca\FORCACS-project\obj\Debug\net8.0\ref\FORCACS-project.dll
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net8.0\FORCACS-project.exe
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net8.0\FORCACS-project.deps.json
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net8.0\FORCACS-project.runtimeconfig.json
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net8.0\FORCACS-project.dll
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net8.0\FORCACS-project.pdb
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\FORCACS-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\FORCACS-project.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\FORCACS-project.AssemblyInfo.cs
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\FORCACS-project.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\FORCACS-project.sourcelink.json
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\FORCACS-project.dll
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\refint\FORCACS-project.dll
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\FORCACS-project.pdb
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\FORCACS-project.genruntimeconfig.cache
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net8.0\ref\FORCACS-project.dll

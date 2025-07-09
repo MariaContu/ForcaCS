@@ -7,36 +7,37 @@ namespace HangmanGame
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
-                Console.Clear();
-                menuForca();
-                //menu
-                //opcoes (regras + jogar + sair)
+            Console.Clear();
+            int life = 6;
+            menuForca();
+            bool isIniciado = Console.ReadLine().ToLower().Equals("y");
+            Console.WriteLine(isIniciado);
+            if (isIniciado) Console.WriteLine(stickFigure(life));
+            else Console.WriteLine("COMO OUSAS NAO JOGAR!!!!");
+            
+            //menu
+            //opcoes (regras + jogar + sair)
 
-                //jogo
-                // metodos: - corpinho em relacao a vida
-                //          - verificar letra
-                //          - alfabeto (letras com cores responsivas = verde = acertou, cinza = n tem, branco = faltando)
-            }
+            //jogo
+            // metodos: - corpinho em relacao a vida
+            //          - verificar letra
+            //          - alfabeto (letras com cores responsivas = verde = acertou, cinza = n tem, branco = faltando)
         }
 
         static void menuForca()
         {
+            Console.WriteLine("\n\n\n\n\n\n");
             Console.WriteLine(@"███████╗ ██████╗ ██████╗  ██████╗ █████╗  
 ██╔════╝██╔═══██╗██╔══██╗██╔════╝██╔══██╗  
 █████╗  ██║   ██║██████╔╝██║     ███████║  
 ██╔══╝  ██║   ██║██╔══██╗██║     ██╔══██║  
 ██║     ╚██████╔╝██║  ██║╚██████╗██║  ██║  
 ╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝  ");
-            
-            //opcoes
-            bool isIniciado = false;
 
+            //opcoes
             Console.WriteLine("=====================================\n\n");
             Console.WriteLine("          Vamos comecar? (y/n)");
             Console.WriteLine("\n\n=====================================");
-            isIniciado = Console.ReadLine().ToLower().Equals("y") ? true : false;
         }
         
         static string stickFigure(int life)
