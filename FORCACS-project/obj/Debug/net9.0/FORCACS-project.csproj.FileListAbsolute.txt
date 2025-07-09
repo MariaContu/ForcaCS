@@ -1,0 +1,15 @@
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net9.0\FORCACS-project.exe
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net9.0\FORCACS-project.deps.json
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net9.0\FORCACS-project.runtimeconfig.json
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net9.0\FORCACS-project.dll
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\bin\Debug\net9.0\FORCACS-project.pdb
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\FORCACS-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\FORCACS-project.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\FORCACS-project.AssemblyInfo.cs
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\FORCACS-project.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\FORCACS-project.sourcelink.json
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\FORCACS-project.dll
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\refint\FORCACS-project.dll
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\FORCACS-project.pdb
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\FORCACS-project.genruntimeconfig.cache
+C:\Users\henri\Desktop\PUCRS\IT Academy\ForcaCS\FORCACS-project\obj\Debug\net9.0\ref\FORCACS-project.dll
