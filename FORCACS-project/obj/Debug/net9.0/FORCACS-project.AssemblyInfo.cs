@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FORCACS-project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+957bfbe68ed04c78db768106c79ba02bebf97754")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5b631484b8d9a59beb50ad665899e07ff3abbae")]
 [assembly: System.Reflection.AssemblyProductAttribute("FORCACS-project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FORCACS-project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

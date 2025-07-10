@@ -1,18 +1,17 @@
 ﻿
 using System;
-using System.Security.Claims;
 using System.Threading;
 namespace HangmanGame
 {
-    class Hangman
+    class Program
     {
         static void Main(string[] args)
         {
             Console.Clear();
-            menuForca();
+            MenuForca();
 
             bool isIniciado = Console.ReadLine().ToLower().Equals("y");
-            if (isIniciado) jogar();
+            if (isIniciado) Jogar();
             else Console.WriteLine("COMO OUSAS NAO JOGAR!!!!");
             
             //menu
@@ -24,7 +23,7 @@ namespace HangmanGame
             //          - alfabeto (letras com cores responsivas = verde = acertou, cinza = n tem, branco = faltando
         }
 
-        static void menuForca()
+        static void MenuForca()
         {
             Console.WriteLine("\n\n\n\n\n\n");
             Console.WriteLine(@"███████╗ ██████╗ ██████╗  ██████╗ █████╗  
@@ -40,9 +39,10 @@ namespace HangmanGame
             Console.WriteLine("\n\n=====================================");
         }
 
-        static void jogar()
+        static void Jogar()
         {
             Console.Clear();
+            bool palavraDescoberta = false;
             
             Console.Write($"\n\n Escolhendo uma palavra");
             Thread.Sleep(400);
@@ -53,71 +53,15 @@ namespace HangmanGame
             Console.Write(".");
             Thread.Sleep(400);
 
-            string palavraEscolhida = Forca.sorteiaPalavra();
+            string palavraEscolhida = Forca.SorteiaPalavra();
+
+            while (!palavraDescoberta)
+            {
+                //show hangman
+            }
             
-            Console.WriteLine(palavraEscolhida);
         }
         
-        static string stickFigure(int life)
-        {
-            return @$"      _______
-     |/      |
-{head(life)}     
-{body1(life)}
-{body2(life)}
-{legs(life)}
-     |
-    _|___";
-        }
-        static string head(int life)
-        {
-            if (life < 6)
-            {
-                return "     |      (_)";
-            }
-            else
-            {
-                return "     |";
-            }
-        }
 
-        static string body1(int life)
-        {
-            switch (life)
-            {
-                case 6:
-                case 5:
-                    return "     |";
-                case 4:
-                    return "     |       |";
-                case 3:
-                    return @"     |      \|";
-                default:
-                    return @"     |      \|/";
-            }
-        }
-
-        static string body2(int life)
-        {
-            if (life < 5)
-            {
-                return "     |       |";
-            }
-            return "     |      ";
-
-        }
-
-        static string legs(int life)
-        {
-            switch (life)
-            {
-                case 1:
-                    return @"     |      / ";
-                case 0:
-                    return @"     |      / \";
-                default:
-                    return "     |";
-            }
-        }
     }
 }
